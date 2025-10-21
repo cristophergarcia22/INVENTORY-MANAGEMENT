@@ -85,10 +85,10 @@ User
 Testing Examples
 Create Product
 
-POST https://inventory-management-kq17.onrender.com/api/products "Content-Type: application/json" '{ "sku": "P001", "name": "Tuyo", "price": 80, "stock": 249 }'
+POST https://inventory-management-kq17.onrender.com/api/products "Content-Type: application/json" '{ "sku": "P001", "name": "Laptop", "price": 40,000 "stock": 19 }'
 Create Supplier
 
-POST https://inventory-management-kq17.onrender.com/api/suppliers "Content-Type: application/json" '{ "name": "Acme Supplies", "contact": "acme@example.com" }'
+POST https://inventory-management-kq17.onrender.com/api/suppliers "Content-Type: application/json" '{ "name": "Garcia Supplies", "contact": "garciasupplies@example.com" }'
 Create Order
 
 POST https://inventory-management-kq17.onrender.com/api/orders "Content-Type: application/json" '{ "supplierId": "SUPPLIER_OBJECT_ID", "status": "pending", "items": [ { "productId": "PRODUCT_OBJECT_ID", "qty": 5, "price": 1.99 } ] }'
