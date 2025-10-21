@@ -142,5 +142,5 @@ The API returns appropriate HTTP status codes:
     400 - Bad Request
     404 - Not Found
     500 - Internal Server Error
-inventory-api-production-7046.up.railway.app
-Write to MG Dedase
+https://inventory-management-kq17.onrender.com
+Write to Cristopher Garcia 
